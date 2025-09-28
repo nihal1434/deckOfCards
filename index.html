@@ -1,27 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <title>Deck of Cards</title>
   </head>
-  <body>
-    <div id="container">
-      <p id="remaining">Remaining cards</p>
-      <h2 id="header">Game of War</h2>
-      <h3 id="computer-score">Computer score: 0</h3>
-      <div id="cards">
-        <div class="card-slot"><img src="img/cb1.jpg" class="card" /></div>
-        <div class="card-slot"><img src="img/cb2.jpg" class="card" /></div>
-      </div>
-      <h3 id="my-score">My score: 0</h3>
-      <div class="btn">
-        <button id="new-deck">New Deck</button>
-        <button id="draw-cards" class="draw" disabled>Draw</button>
-      </div>
+
+  <body id="container">
+    <p id="remaining">Remaining cards: 0</p>
+    <p id="header">Game of War!</p>
+    <p id="computer-score">Computer score: 0</p>
+    <div id="cards">
+      <div class="card-slot"><img src="img/cb1.jpg" class="card" /></div>
+      <div class="card-slot"><img src="img/cb2.jpg" class="card" /></div>
     </div>
+    <p id="my-score">My score: 0</p>
+    <div class="btn">
+      <button id="new-deck">New Deck</button>
+      <button id="draw-cards" class="draw" disabled>Draw</button>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
