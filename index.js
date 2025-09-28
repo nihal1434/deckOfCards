@@ -22,6 +22,7 @@ function handleClick() {
                 <img src="img/cb2.jpg" class="card" />
             `;
       header.textContent = "Game of War";
+      header.style.color="#ffffff"
       computerScoreEl.textContent = `Computer score: 0`;
       myScoreEl.textContent = `My score: 0`;
       drawCardBtn.disabled = false;
@@ -48,8 +49,10 @@ drawCardBtn.addEventListener("click", () => {
         drawCardBtn.disabled = true;
         if (computerScore > myScore) {
           header.textContent = "The computer won the game!";
+          header.style.color="#ff6153"
         } else if (myScore > computerScore) {
           header.textContent = "You won the game!";
+          header.style.color="#9f69fe"
         } else {
           header.textContent = "It's a tie game!";
         }
