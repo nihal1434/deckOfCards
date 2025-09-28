@@ -7,7 +7,7 @@
 
 /* Base styles (mobile-first) */
 html, body {
-  height: 100%;
+  height: 100vh;
   font-family: "Exo 2", sans-serif;
   background: url("img/table.png") ;
   background-size:cover;
@@ -18,7 +18,7 @@ html, body {
 }
 
 #container {
-  min-height: 80vh;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
