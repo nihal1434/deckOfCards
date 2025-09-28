@@ -25,6 +25,8 @@ function handleClick() {
       header.style.color="#ffffff"
       computerScoreEl.textContent = `Computer score: 0`;
       myScoreEl.textContent = `My score: 0`;
+      computerScore=0
+      myScore=0
       drawCardBtn.disabled = false;
     });
 }
