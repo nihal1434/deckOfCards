@@ -27,7 +27,7 @@ html, body {
 /* Text */
 p {
   font-weight: 600;
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-top: 0.5em;
 }
 
@@ -37,17 +37,14 @@ h2 {
 }
 
 h3 {
-  font-size: 4.25rem;
+  font-size: 4rem;
   font-weight: 400;
   margin: 0.5em 0;
 }
 
-/* Cards */
 #cards {
   display: flex;
   flex-direction: column; /* Mobile: stacked */
-  gap: 1em;
-  margin: 1em 0;
 }
 
 .card-slot {
@@ -66,11 +63,10 @@ h3 {
 /* Buttons */
 .btn {
   display: flex;
-  flex-direction: column; /* Mobile: stacked */
+  flex-direction: column; 
   justify-content: center;
-  gap: 0.8em;
+  gap: 1em;
   width: 100%;
-  margin-bottom: 1em;
 }
 
 button {
