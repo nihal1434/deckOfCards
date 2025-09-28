@@ -22,11 +22,11 @@ function handleClick() {
                 <img src="img/cb2.jpg" class="card" />
             `;
       header.textContent = "Game of War";
-      header.style.color="#ffffff"
+      header.style.color = "#f4ebc7";
       computerScoreEl.textContent = `Computer score: 0`;
       myScoreEl.textContent = `My score: 0`;
-      computerScore=0
-      myScore=0
+      computerScore = 0;
+      myScore = 0;
       drawCardBtn.disabled = false;
     });
 }
@@ -38,12 +38,10 @@ drawCardBtn.addEventListener("click", () => {
     .then((res) => res.json())
     .then((data) => {
       remainingText.textContent = `Remaining cards: ${data.remaining}`;
-      cardsContainer.children[0].innerHTML = `
-                <img src=${data.cards[0].image} class="card" />
-            `;
-      cardsContainer.children[1].innerHTML = `
-                <img src=${data.cards[1].image} class="card" />
-            `;
+
+      cardsContainer.children[0].querySelector("img").src = data.cards[0].image;
+      cardsContainer.children[1].querySelector("img").src = data.cards[1].image;
+
       const winnerText = determineCardWinner(data.cards[0], data.cards[1]);
       header.textContent = winnerText;
 
@@ -51,10 +49,10 @@ drawCardBtn.addEventListener("click", () => {
         drawCardBtn.disabled = true;
         if (computerScore > myScore) {
           header.textContent = "The computer won the game!";
-          header.style.color="#ff6153"
+          header.style.color = "#ff6153";
         } else if (myScore > computerScore) {
           header.textContent = "You won the game!";
-          header.style.color="#9f69fe"
+          header.style.color = "#9f69fe";
         } else {
           header.textContent = "It's a tie game!";
         }
