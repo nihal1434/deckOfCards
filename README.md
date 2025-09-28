@@ -34,7 +34,6 @@ The game keeps track of scores between the player and the computer.
 ---
 
 ## 📂 Project Structure
-
 ├── index.html # Main HTML file
 ├── style.css # Styling and layout
 ├── script.js # Game logic & API calls
