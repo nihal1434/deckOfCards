@@ -129,7 +129,7 @@ button:disabled {
     height: 98%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 4px solid #3433334d;
     border-radius: 16px;
   }
@@ -152,6 +152,11 @@ button:disabled {
 
   .btn {
     justify-content: space-around;
+    margin-bottom: 1.5em;
+  }
+  #remaining{
+    padding-left: .5em;
+    padding-top: .25em;
   }
 
 }
