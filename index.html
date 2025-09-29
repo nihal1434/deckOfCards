@@ -13,20 +13,20 @@
   </head>
 
   <body>
-    <div id="container">
+    <main id="container">
       <p id="remaining">Remaining cards: 0</p>
       <p id="header">Game of War!</p>
       <p id="computer-score">Computer score: 0</p>
-      <div id="cards">
-        <div class="card-slot"><img src="img/cb1.jpg" class="card" /></div>
-        <div class="card-slot"><img src="img/cb2.jpg" class="card" /></div>
-      </div>
+      <section id="cards">
+        <article class="card-slot"><img src="img/cb1.jpg" class="card" alt="Card Image for computer" /></article>
+        <article class="card-slot"><img src="img/cb2.jpg" class="card" alt="Card Image for user" /></article>
+      </section>
       <p id="my-score">My score: 0</p>
-      <div class="btn">
-        <button id="new-deck">New Deck</button>
-        <button id="draw-cards" class="draw" disabled>Draw</button>
-      </div>
-    </div>
+      <section class="btn">
+        <button id="new-deck" aria-label="Start a new deck">New Deck</button>
+        <button id="draw-cards" class="draw" aria-label="draw a new deck" disabled>Draw</button>
+      </section>
+    </main>
 
     <script src="index.js"></script>
   </body>

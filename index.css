@@ -17,19 +17,19 @@ body {
 #container {
   width: 100%;
   height: 100%;
-  padding: .5em;
+  padding: .25em;
 }
 
 p {
   font-size: 1.25rem;
   margin: 0;
-  text-shadow: 1px 1px 3px #000000b3;
+  text-shadow: 2px 2px 2px #000000b3;
 }
 
 #remaining {
   text-align: start;
   font-weight: 500;
-  padding-bottom: .5em;
+  padding-bottom: .7em;
 }
 
 #header {
@@ -40,10 +40,14 @@ p {
 
 #computer-score {
   padding-bottom: .5em;
+  font-weight: bold;
+  color: #ff6153;
 }
 
 #my-score {
   padding-top: .5em;
+  font-weight: bold;
+  color: #9f69fe;
 }
 
 #cards {
@@ -68,8 +72,8 @@ p {
 button {
   font-family: inherit;
   font-weight: bold;
-  background-color: #fff100;
-  color: #111;
+  background-color: #f4ebc7;
+  color: #02592b;
   cursor: pointer;
   font-size: 1rem;
   width: 6em;
@@ -87,7 +91,7 @@ button {
 }
 
 button:active {
-  background-color: #d2c80b;
+  background-color: #d5cdab;
   transform: scale(0.95);
 }
 
@@ -114,7 +118,6 @@ button:disabled {
   }
 
   body {
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
