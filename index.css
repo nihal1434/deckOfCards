@@ -108,13 +108,13 @@ button:disabled {
 
 @media(min-width:475px) {
   html {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 @media(min-width:550px) {
   html {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   body {
