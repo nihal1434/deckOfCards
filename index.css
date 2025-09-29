@@ -46,6 +46,7 @@ p {
 
 #my-score {
   padding-top: .5em;
+  padding-bottom: .25em;
   font-weight: bold;
   color: #9f69fe;
 }
