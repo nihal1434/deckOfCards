@@ -33,14 +33,14 @@ p {
 }
 
 #header {
-  font-size: 2.25rem;
+  font-size: 2.15rem;
   font-weight: bold;
   padding-bottom: 0.3125em;
 }
 
 .header-container {
   display: flex;
-  font-size: 2.25rem;
+  font-size: 2rem;
   height: 3em;
   align-items: center;
   justify-content: center;
