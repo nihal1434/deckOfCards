@@ -15,16 +15,29 @@
   <body>
     <main id="container">
       <p id="remaining">Remaining cards: 0</p>
-      <p id="header">Game of War!</p>
+      <div class="header-container">
+        <p id="header">Game of War!</p>
+      </div>
       <p id="computer-score">Computer score: 0</p>
       <section id="cards">
-        <article class="card-slot"><img src="img/cb1.jpg" class="card" alt="Card Image for computer" /></article>
-        <article class="card-slot"><img src="img/cb2.jpg" class="card" alt="Card Image for user" /></article>
+        <article class="card-slot">
+          <img src="img/cb1.jpg" class="card" alt="Card Image for computer" />
+        </article>
+        <article class="card-slot">
+          <img src="img/cb2.jpg" class="card" alt="Card Image for user" />
+        </article>
       </section>
       <p id="my-score">My score: 0</p>
       <section class="btn">
         <button id="new-deck" aria-label="Start a new deck">New Deck</button>
-        <button id="draw-cards" class="draw" aria-label="draw a new deck" disabled>Draw</button>
+        <button
+          id="draw-cards"
+          class="draw"
+          aria-label="draw a new deck"
+          disabled
+        >
+          Draw
+        </button>
       </section>
     </main>
 

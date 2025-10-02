@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin: 0;
   text-shadow: 2px 2px 2px #000000b3;
 }
@@ -33,22 +33,28 @@ p {
 }
 
 #header {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: bold;
   padding-bottom: 0.3125em;
 }
 
+.header-container {
+  display: flex;
+  font-size: 2.25rem;
+  height: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
 #computer-score {
   padding-bottom: .5em;
-  font-weight: bold;
-  color: #ff6153;
+  color: #F1E1DF;
 }
 
 #my-score {
   padding-top: .5em;
   padding-bottom: .25em;
-  font-weight: bold;
-  color: #9f69fe;
+  color: #E1D7F1;
 }
 
 #cards {
@@ -155,7 +161,8 @@ button:disabled {
     justify-content: space-around;
     margin-bottom: 1.5em;
   }
-  #remaining{
+
+  #remaining {
     padding-left: .5em;
     padding-top: .25em;
   }
