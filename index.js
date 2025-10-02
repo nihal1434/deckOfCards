@@ -45,6 +45,8 @@ drawCardBtn.addEventListener("click", () => {
       const winnerText = determineCardWinner(data.cards[0], data.cards[1]);
       header.textContent = winnerText;
 
+      header.style.transform = "scale(1.05)";
+      setTimeout(() => header.style.transform = "scale(1)", 200);
       if (data.remaining === 0) {
         drawCardBtn.disabled = true;
         if (computerScore > myScore) {
