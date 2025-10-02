@@ -21,7 +21,7 @@ function handleClick() {
       cardsContainer.children[1].innerHTML = `
                 <img src="img/cb2.jpg" class="card" />
             `;
-      header.textContent = "Game of War";
+      header.textContent = "Game of War ⚔️";
       header.style.color = "#f4ebc7";
       computerScoreEl.textContent = `Computer score: 0`;
       myScoreEl.textContent = `My score: 0`;
