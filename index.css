@@ -16,7 +16,6 @@ body {
 
 #container {
   width: 100%;
-  /* background-color: red; */
   height: 100%;
   padding: .5em;
 }
@@ -35,7 +34,8 @@ p {
 }
 
 #header {
-  font-size: 2.15rem;
+  margin: -1rem 0;
+  font-size: 2.25rem;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: .5px;
