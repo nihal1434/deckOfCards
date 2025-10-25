@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100svh;
   font-family: "Poppins", sans-serif;
   background-image: url("img/table.webp");
   background-size: cover;
@@ -33,31 +32,22 @@ p {
 }
 
 #header {
+  margin: 1rem 0 ;
   font-size: 2.15rem;
   font-weight: 500;
-  padding-bottom: 0.3125em;
   line-height: 1.1;
   letter-spacing: .5px;
   transition: color 0.3s ease, transform 0.15s ease;
 }
 
-.header-container {
-  display: flex;
-  font-size: 2rem;
-  height: 3em;
-  align-items: center;
-  justify-content: center;
-}
-
 #computer-score {
-  padding-bottom: .5em;
+  padding: .5em 0;
   color: #ffffff;
   font-weight: 300;
 }
 
 #my-score {
-  padding-top: .5em;
-  padding-bottom: .25em;
+  padding: .5em 0;
   color: #ffffff;
   font-weight: 300;
 }
@@ -96,10 +86,10 @@ button {
 }
 
 .btn {
-  margin-top: .75em;
   display: flex;
   gap: 1em;
   justify-content: space-around;
+  margin-bottom: 1rem;
 }
 
 button:active {
