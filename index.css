@@ -9,7 +9,7 @@ body {
   background-image: url("img/table.webp");
   background-size: cover;
   height: 100svh;
-  min-height: 100vh;
+  max-height: 100vh;
   background-repeat: no-repeat;
   color: #f4ebc7;
   text-align: center;
