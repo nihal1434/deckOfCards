@@ -54,7 +54,7 @@ drawCardBtn.addEventListener("click", () => {
         } else if (myScore > computerScore) {
           header.textContent = "You won 😁!";
         } else {
-          header.textContent = "It's a tie game!";
+          header.textContent = "It's a tie !";
         }
       }
     });
