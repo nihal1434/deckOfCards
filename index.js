@@ -16,10 +16,10 @@ function handleClick() {
       deckId = data.deck_id;
       remainingText.textContent = `Remaining cards: ${data.remaining}`;
       cardsContainer.children[0].innerHTML = `
-                <img src="img/cb1.jpg" class="card" />
+                <img src="img/cb1.webp" class="card" />
             `;
       cardsContainer.children[1].innerHTML = `
-                <img src="img/cb2.jpg" class="card" />
+                <img src="img/cb2.webp" class="card" />
             `;
       header.textContent = "Game of War ⚔️!";
       header.style.color = "#f4ebc7";
@@ -45,16 +45,14 @@ drawCardBtn.addEventListener("click", () => {
       const winnerText = determineCardWinner(data.cards[0], data.cards[1]);
       header.textContent = winnerText;
 
-      header.style.transform = "scale(1.05)";
+      header.style.transform = "scale(1.025)";
       setTimeout(() => header.style.transform = "scale(1)", 200);
       if (data.remaining === 0) {
         drawCardBtn.disabled = true;
         if (computerScore > myScore) {
-          header.textContent = "The computer won the game 😭!";
-          header.style.color = "#ff6153";
+          header.textContent = "Computer won the game 😭!";
         } else if (myScore > computerScore) {
           header.textContent = "You won the game 😁!";
-          header.style.color = "#9f69fe";
         } else {
           header.textContent = "It's a tie game!";
         }
