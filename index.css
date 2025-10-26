@@ -66,8 +66,8 @@ p {
 }
 
 .card-slot {
-  width: 143px;
-  height: 200px;
+  width: 7.8125em;
+  height: 10.9375em;
 }
 
 .card {
@@ -163,8 +163,8 @@ button:disabled {
   }
 
   .card-slot {
-   width:176.5px ;
-   height: 247.5px;
+    width:8.825em ;
+   height: 12.375em;
   }
 
   .btn {
