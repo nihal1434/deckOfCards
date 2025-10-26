@@ -66,12 +66,13 @@ p {
 }
 
 .card-slot {
-  width: 125px;
-  height: 175px;
+  width: 143px;
+  height: 200px;
 }
 
 .card {
   height: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -162,10 +163,8 @@ button:disabled {
   }
 
   .card-slot {
-    max-width: 300px;
-    max-height: 350px;
-    width: 9em;
-    height: 12.5em;
+   width:176.5px ;
+   height: 247.5px;
   }
 
   .btn {
