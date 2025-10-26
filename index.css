@@ -118,6 +118,11 @@ button:disabled {
   html {
     font-size: 20px;
   }
+    #cards {
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+  }
 }
 
 @media(min-width:550px) {
@@ -136,11 +141,7 @@ button:disabled {
     border-radius: 16px;
   }
 
-  #cards {
-    flex-direction: row;
-    gap: 1.5rem;
-    justify-content: center;
-  }
+
 
   #header {
     font-size: 2.25rem;
