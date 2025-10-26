@@ -121,7 +121,6 @@ button:disabled {
 
 @media(min-width:550px) {
   body {
-    height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +137,7 @@ button:disabled {
 
   #cards {
     flex-direction: row;
+    gap: 1.5rem;
     justify-content: center;
   }
 
@@ -148,17 +148,17 @@ button:disabled {
   #my-score {
     margin: 0;
     padding: 0;
-    margin-top: 1.25rem;
+    margin: 1rem 0;
+    text-align:right;
+    margin-right: 7.75rem;
   }
 
   #computer-score {
     margin: 0;
     padding: 0;
-    margin-bottom: 1.25rem;
-  }
-
-  .card {
-    border-radius: 12px;
+    margin-bottom: 1rem;
+    text-align: start;
+    margin-left: 7.85rem;
   }
 
   .card-slot {
@@ -170,12 +170,7 @@ button:disabled {
 
   .btn {
     justify-content: space-around;
-    margin-bottom: .75em;
-  }
-
-  #remaining {
-    padding-left: .5em;
-    padding-top: .25em;
+    gap: 0;
   }
 
 }
